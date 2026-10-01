@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 typedef struct canho
 {
 	string mach;
@@ -10,6 +11,7 @@ typedef struct canho
 	double gia;
 	bool daban; 
 }ch;
+
 class mang
 {
 	private:
@@ -26,6 +28,7 @@ class mang
 		void chen(int k);		
 		void xoa(int c);
 };
+
 void mang::nhapch(ch &x)
 {
 	cout<<"Nhap ma can ho: "; cin>>x.mach;
